@@ -1,6 +1,6 @@
 {
     "name": "Checkin",
-    "version": "0.9.10",
+    "version": "0.9.11",
     "devDependencies": {
         "grunt": "^0.4.5",
         "grunt-contrib-cssmin": "^2.2.1",
