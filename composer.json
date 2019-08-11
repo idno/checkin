@@ -12,6 +12,6 @@
         "mapkyca/known-phpcs": "^1.0"
     },
     "extra": {
-        "installer-name": "CheckIn"
+        "installer-name": "Checkin"
     }
 }
