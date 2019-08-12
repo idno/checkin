@@ -2,7 +2,7 @@
     "name": "idno/checkin",
     "description": "An easy way to check into a geographic location.",
     "type": "known-plugin",
-    "version": "0.9.11",
+    "version": "1.0.0",
     "require": {
         "composer/installers": "~1.0"
     },
