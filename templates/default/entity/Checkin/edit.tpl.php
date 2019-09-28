@@ -76,6 +76,17 @@
                 'placeholder' => '',
                 'label' => \Idno\Core\Idno::site()->language()->_('Description')
             ])->draw('forms/input/richtext')?>
+            
+            <div class="anonymity">
+                <p>
+                    <label for="anonymity">
+                        <?php echo \Idno\Core\Idno::site()->language()->_('Protect my location for 24 hours'); ?> <br>
+                    </label>
+                    <input name="anonymity" type="checkbox" data-toggle="toggle" data-onstyle="info" data-on="Yes" data-off="No"  data-toggle="tooltip" data-placement="top" title="<?= \Idno\Core\Idno::site()->language()->_('When selected, your precise location will only be shown to logged out users after 24 hours have passed'); ?>"
+                       value="Yes" name="single_user" <?php if ($vars['object']->anonymity == 'Yes') echo 'checked'; ?>>
+            
+            </div>
+            
             <?php if (empty($vars['object']->_id)) {
                 echo $this->__(['name' => 'forward-to', 'value' => \Idno\Core\Idno::site()->config()->getDisplayURL() . 'content/all/'])->draw('forms/input/hidden');
             } ?>

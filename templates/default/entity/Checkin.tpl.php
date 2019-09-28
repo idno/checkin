@@ -17,8 +17,8 @@
 
     <span class="p-location u-checkin h-card">
         <data class="p-name" value="<?php echo $object->placename ?>"></data>
-        <data class="p-latitude" value="<?php echo $object->lat ?>"></data>
-        <data class="p-longitude" value="<?php echo $object->long ?>"></data>
+        <data class="p-latitude" value="<?php echo $object->lat() ?>"></data>
+        <data class="p-longitude" value="<?php echo $object->long() ?>"></data>
     </span>
 
     <?php if (empty($vars['feed_view'])) { ?>
@@ -42,10 +42,10 @@
             var map<?php echo $object->_id?> = L.map('map_<?php echo $object->_id?>', {
                 touchZoom: false,
                 scrollWheelZoom: false
-            }).setView([<?php echo $object->lat?>, <?php echo $object->long?>], 16);
+            }).setView([<?php echo $object->lat() ?>, <?php echo $object->long() ?>], 16);
             var layer<?php echo $object->_id?> = new L.StamenTileLayer("toner-lite");
             map<?php echo $object->_id?>.addLayer(layer<?php echo $object->_id?>);
-            var marker<?php echo $object->_id?> = L.marker([<?php echo $object->lat?>, <?php echo $object->long?>]);
+            var marker<?php echo $object->_id?> = L.marker([<?php echo $object->lat()?>, <?php echo $object->long()?>]);
             marker<?php echo $object->_id?>.addTo(map<?php echo $object->_id?>);
             //map<?php echo $object->_id?>.zoomControl.disable();
             map<?php echo $object->_id?>.scrollWheelZoom.disable();
