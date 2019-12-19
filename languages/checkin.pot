@@ -59,6 +59,6 @@ msgid "Checked into %s"
 msgstr ""
 
 #: ./Checkin.php:85
-msgid "You can\'t save an empty checkin."
+msgid "You can\\'t save an empty checkin."
 msgstr ""
 
