@@ -1,34 +1,34 @@
 #: ./Pages/Delete.php:18
 msgid "You don't have permission to perform this task."
-msgstr ""
+msgstr "Vous n’avez pas la permission d’effectuer cette tâche."
 
 #: ./Pages/Delete.php:23
 msgid "Your checkin was deleted."
-msgstr ""
+msgstr "Votre poulet a été supprimé."
 
 #: ./Pages/Delete.php:25
 msgid "We couldn't delete %s."
-msgstr ""
+msgstr "On n’a pas pu supprimer %s."
 
 #: ./Pages/Edit.php:32
 msgid "Where are you?"
-msgstr ""
+msgstr "Où es-tu?"
 
 #: ./Pages/Edit.php:34
 msgid "Edit checkin"
-msgstr ""
+msgstr "Modifier le poulet"
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:10
 msgid "New Location"
-msgstr ""
+msgstr "Nouvel emplacement"
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:12
 msgid "Edit Location"
-msgstr ""
+msgstr "Modifier l’emplacement"
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:18
 msgid "Hang tight ... searching for your location."
-msgstr ""
+msgstr "Un moment s’il vous plaît ... recherche de votre emplacement."
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:34
 msgid "Location"
@@ -44,7 +44,7 @@ msgstr "Vous pouvez modifier l’adresse si elle est fausse."
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:77
 msgid "Description"
-msgstr ""
+msgstr "Descriptif"
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:89
 msgid "Publish"
@@ -52,13 +52,13 @@ msgstr "Publier"
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:91
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: ./Checkin.php:72
 msgid "Checked into %s"
-msgstr ""
+msgstr "Enregistré à %s"
 
 #: ./Checkin.php:85
 msgid "You can\\'t save an empty checkin."
-msgstr ""
+msgstr "Vous ne peux pas sauver un poulet vide."
 
