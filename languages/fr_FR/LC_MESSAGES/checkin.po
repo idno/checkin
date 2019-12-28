@@ -48,7 +48,7 @@ msgstr "Description"
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:83
 msgid "Protect my location for 24 hours"
-msgstr ""
+msgstr "Protégez mon emplacement pendant 24 heures"
 
 #: ./templates/default/entity/Checkin/edit.tpl.php:89
 msgid "Publish"
