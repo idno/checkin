@@ -95,7 +95,7 @@
             <?php echo $this->draw('content/extra'); ?>
             <?php echo $this->draw('content/access'); ?>
             <p class="button-bar ">
-               <input type="button" class="btn btn-cancel" value="Cancel" onclick="hideContentCreateForm();"/>
+               <input type="button" class="btn btn-cancel" value="<?php echo \Idno\Core\Idno::site()->language()->_('Cancel'); ?>" onclick="hideContentCreateForm();"/>
                 <?php echo \Idno\Core\Idno::site()->actions()->signForm('/checkin/edit') ?>
                 <input type="submit" class="btn btn-primary" value="<?php if (empty($vars['object']->_id)) { ?><?php echo \Idno\Core\Idno::site()->language()->_('Publish'); ?><?php
 } else {
